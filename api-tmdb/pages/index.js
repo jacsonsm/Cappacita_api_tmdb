@@ -15,24 +15,22 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Milhões de Filmes, Séries e Pessoas para Descobrir. Explore já.{' '}
+          Milhões de Filmes, Séries e Pessoas para Descobrir.Explore já.{' '}
 
         </p>
 
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
-            <h3>Os mais populares &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Os mais populares &rarr; </h3>
+            <button id="listar-filmes" onClick="axios()">Clique aqui</button>
           </a>
           <div class="movie-container">
-            <div class="movie">
-              <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" />
-              <p class="movie-title">${ }</p>
-            </div>
+
+
           </div>
 
           <a href="/" className={styles.card}>
-            <h3>Gratis para assistir&rarr;</h3>
+            <h3>Gratis para assistir&rarr; </h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -40,7 +38,7 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
-            <h3>Ultimos Trailers &rarr;</h3>
+            <h3>Ultimos Trailers &rarr; </h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -48,13 +46,13 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
-            <h3>Tendencias &rarr;</h3>
+            <h3>Tendencias &rarr; </h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
         </div>
-      </main>
+      </main >
 
       <footer className={styles.footer}>
         <a
@@ -66,6 +64,6 @@ export default function Home() {
           <img src="/" alt="jsm" className={styles.logo} />
         </a>
       </footer>
-    </div>
+    </div >
   )
 }
