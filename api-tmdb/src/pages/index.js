@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo a <a href="/">MOVIE DATABASE</a>
+          Bem vindo aos <a href="https://www.cappacita.com.br/">Filmes da CappacitaDev</a>
         </h1>
 
         <p className={styles.description}>
@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
             <h3>Os mais populares &rarr; </h3>
-            <button id="listar-filmes" onClick="axios()">Clique aqui</button>
+            <p>Veja aqui os filmes mais assistidos no momentp!</p>
           </a>
           <div class="movie-container">
 
@@ -31,7 +31,7 @@ export default function Home() {
 
           <a href="/" className={styles.card}>
             <h3>Gratis para assistir&rarr; </h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Veja aqui, os filmes gratis disponíveis para assistir!</p>
           </a>
 
           <a
@@ -39,7 +39,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Ultimos Trailers &rarr; </h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Veja aqui os trailers dos lançamentos disponíveis no cinema.</p>
           </a>
 
           <a
