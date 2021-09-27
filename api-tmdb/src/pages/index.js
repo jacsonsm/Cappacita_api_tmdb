@@ -48,7 +48,7 @@ export default function Home() {
           >
             <h3>Tendencias &rarr; </h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Os melhores...
             </p>
           </a>
         </div>
@@ -60,8 +60,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/" alt="jsm" className={styles.logo} />
+          Powered by {'https://github.com/jacsonsm'}
+          <img src="https://avatars.githubusercontent.com/u/65376794?v=4" alt="" className={styles.logo} />
         </a>
       </footer>
     </div >
